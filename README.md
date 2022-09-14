@@ -56,6 +56,10 @@ speed of sound in the air at 20ºC (68ºF) = 343m/s
 
 ### PROGRAM :
 ```
+Nmae:Aruru.Sai Bandhavi
+Reg no:212221240006
+```
+```
 const int trigpin (2);
 const int echopin (3);
 long duration;
@@ -85,27 +89,17 @@ void loop()
 ![output](https://github.com/Saibandhavi75/Experiment--04-Interfacing-digital-output-with-arduino-ultrasonic-sensor/blob/main/ex121.png?raw=true)
 
 ### Serial monitor:
-![output](https://github.com/Saibandhavi75/Experiment--04-Interfacing-digital-output-with-arduino-ultrasonic-sensor/blob/main/ex4.jpg?raw=true)
+![output](https://github.com/Saibandhavi75/Experiment--04-Interfacing-digital-output-with-arduino-ultrasonic-sensor/blob/main/ex%204.jpg?raw=true)
 
 ### Distance vs measurement table 
 ![ouput](https://github.com/Saibandhavi75/Experiment--04-Interfacing-digital-output-with-arduino-ultrasonic-sensor/blob/main/ex%2041.jpeg?raw=true)
 
-			
-			
-			
-			
-			
-			Average error = sum/ number of readings 
- 
+### Average error = sum/ number of readings 
+ 		  = 3.4/5
+		  =0.68
+		  
+### RESULTS:
 
-
-
-
-
-
-
-
-### RESULTS
 
 
 
