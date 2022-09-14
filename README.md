@@ -56,7 +56,7 @@ speed of sound in the air at 20ºC (68ºF) = 343m/s
 
 ### PROGRAM :
 ```
-Nmae:Aruru.Sai Bandhavi
+Name:Aruru.Sai Bandhavi
 Reg no:212221240006
 ```
 ```
