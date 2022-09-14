@@ -95,11 +95,12 @@ void loop()
 ![ouput](https://github.com/Saibandhavi75/Experiment--04-Interfacing-digital-output-with-arduino-ultrasonic-sensor/blob/main/ex%2041.jpeg?raw=true)
 
 ### Average error = sum/ number of readings 
- 		  = 3.4/5
-		  =0.68
+ 		
+		 = 3.4/5
+		Average error =0.68
 		  
 ### RESULTS:
- 
+ Thus,the distance value is measured in "CM" using ultrasonic sensor.
 
 
 
