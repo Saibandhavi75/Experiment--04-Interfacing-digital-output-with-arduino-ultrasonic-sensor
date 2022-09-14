@@ -54,12 +54,33 @@ speed of sound in the air at 20ºC (68ºF) = 343m/s
 10.	Plot the graph for the output voltage vs the resistance 
 
 
-### PROGRAM 
-
-
-
-
-
+### PROGRAM :
+```
+const int trigpin (2);
+const int echopin (3);
+long duration;
+int distance;
+void setup()
+{
+  pinMode(trigpin,OUTPUT);
+          pinMode(echopin,INPUT);
+  		  Serial.begin(9600);
+}
+void loop()
+{
+  digitalWrite(trigpin,LOW);
+  delay(20);
+  digitalWrite(trigpin,HIGH);
+  delay(20);
+  digitalWrite(trigpin,LOW);
+  duration=pulseIn(echopin,HIGH);
+  distance=duration*0.034/2;
+  Serial.print("distance = ");
+  Serial.print(distance);
+  Serial.println("CM");
+}
+               
+```
 
 ### Distance vs measurement table 
 
